@@ -1,4 +1,5 @@
 interface User {
+  _id: String;
   type: String;
   name: String;
   document: String;

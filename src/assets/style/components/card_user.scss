@@ -1,0 +1,19 @@
+.card_user {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid $grey;
+  border-radius: 8px;
+  box-shadow: 1px 1px 1px $grey;
+  padding: 16px;
+  width: 500px;
+  background-color: $black;
+
+  p {
+    font-weight: $bold;
+    color: $white;
+  }
+
+  .avatar {
+    border: 2px solid $white;
+  }
+}
