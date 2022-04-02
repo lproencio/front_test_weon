@@ -1,0 +1,36 @@
+.nav {
+  background-color: $white;
+  height: 300px;
+  padding: 24px;
+  margin: 5% 30px;
+  border-radius: 8px;
+
+  .routes {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      border: none;
+      background: transparent;
+      padding: 0;
+      width: 100%;
+      margin-top: 10px;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        font-weight: $bold;
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+      }
+    }
+
+    .select {
+      a {
+        color: $primary;
+      }
+    }
+  }
+}
